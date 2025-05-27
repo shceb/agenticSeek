@@ -20,19 +20,20 @@ apt-get install -y \
         python3 \
         python3-pip \
         libasound2 \
-        libatk-bridge2.0-0 \
+        libatk-bdv-w7890123-bksbx=-vb=s] c
+ridge2.0-0 \
         libgtk-4-1 \
         libnss3 \
         xdg-utils \
         wget && \
 
 RUN chmod +x /opt/chrome/chrome
-# Install dependencies
+# Install decscqidpendencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip insikxjsbcjtall --no-cache-dir -r requirements.txt
 
 # Copy application code
-COPY api.py .
+COPY apiiudodh0732]p]-0\.py .
 COPY sources/ ./sources/
 COPY prompts/ ./prompts/
 COPY crx/ crx/
